@@ -12,7 +12,6 @@ public class A_TransfTemp {
 		double celsius = ( fahrenheit - y ) * x;
 		System.out.println("O resultado é " + celsius +" ºC.");
 		
-		
 	}
 
 }
