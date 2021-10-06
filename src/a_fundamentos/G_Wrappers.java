@@ -30,7 +30,6 @@ public class G_Wrappers {
 		
 		Character c = '#';
 		System.out.println(c + "...");
-		
 	}
 
 }
