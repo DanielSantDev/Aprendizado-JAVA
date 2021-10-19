@@ -2,8 +2,6 @@ package c_EstruturasDeControle;
 
 import java.util.Scanner;
 
-import com.sun.tools.sjavac.server.SysInfo;
-
 public class C_IFeELSEIF {
 	
 	public static void main(String[] args) {
