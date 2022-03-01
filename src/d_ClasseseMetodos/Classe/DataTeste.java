@@ -8,8 +8,9 @@ public class DataTeste {
         d1.dia = 30;
         d1.mes = 11;
         d1.ano = 1998;
-        
-        System.out.println(d1.dia + d1.mes + d1.ano);
+
+
+        System.out.println(d1.obterData());
 
     }
 
