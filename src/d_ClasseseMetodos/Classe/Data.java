@@ -6,20 +6,35 @@ public class Data {
     int mes;
     int ano;
 
+    /*VALORES PADRÃO*/
+    //byte, short, int, long -> 0
+    //float, double -> 0.0
+    //boolean -> false
+    //char -> '\u0000'
+    //objetos -> null
+    String s = null;
+
     Data(){
-        dia = 1;
+        /*dia = 1;
         mes = 1;
-        ano = 1970;
+        ano = 1970;*/
+        this(1, 1, 1997);
     }
 
-    public Data(int diaInicial, int mesInicial, int anoInicial){
-        dia = diaInicial;
-        mes = mesInicial;
-        ano = anoInicial;
+    Data(int dia, int mes, int ano){
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 
-    String obterData(){
-        return String.format("%d/%d/%d",dia,mes,ano);
+    String obterDataFormatada(){
+        //variavel local
+        String formato = "%d/%d/%d";
+        return String.format(formato, this.dia,mes,ano);
+    }
+
+    void imprimirDataFormatada(){
+        System.out.println(obterDataFormatada());
     }
 
 }
