@@ -1,0 +1,17 @@
+package d_ClasseseMetodos.Metodo;
+
+public class PrimeiroTrauma {
+
+    int a = 3;  //não pode mexer aqui
+    static int b = 5;  //não pode mexer aqui
+
+    public static void main(String[] args) {
+
+        PrimeiroTrauma p = new PrimeiroTrauma();
+        System.out.println(p.a);
+
+        System.out.println(b);
+
+    }
+
+}

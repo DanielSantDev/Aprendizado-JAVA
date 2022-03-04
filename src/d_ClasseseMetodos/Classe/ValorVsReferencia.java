@@ -18,13 +18,13 @@ public class ValorVsReferencia {
         d1.dia = 31;
         d2.mes = 12;
 
-        System.out.println(d1.obterData());
-        System.out.println(d2.obterData());
+        System.out.println(d1.obterDataFormatada());
+        System.out.println(d2.obterDataFormatada());
 
         voltarDataParaValorPadrao(d1);
 
-        System.out.println(d1.obterData());
-        System.out.println(d2.obterData());
+        System.out.println(d1.obterDataFormatada());
+        System.out.println(d2.obterDataFormatada());
 
         int c = 5;
         alterarPrimitivo(c);
