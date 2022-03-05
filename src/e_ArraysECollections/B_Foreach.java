@@ -12,8 +12,9 @@ public class B_Foreach {
 
         System.out.println();
 
-        for (double nota: notas
-             ) {
+        for (double nota: notas //for ( tipo variavel_do_tipo_do_seuArray : seuArray){
+
+        ) {
             System.out.print(nota + " ");
         }
 
