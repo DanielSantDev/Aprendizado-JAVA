@@ -1,6 +1,4 @@
-package e_ArraysECollections;
-
-import java.util.Objects;
+package e_Arrays;
 
 public class F_Usuario {
 

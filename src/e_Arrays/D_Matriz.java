@@ -1,4 +1,4 @@
-package e_ArraysECollections;
+package e_Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;

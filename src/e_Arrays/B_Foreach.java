@@ -1,4 +1,4 @@
-package e_ArraysECollections;
+package e_Arrays;
 
 public class B_Foreach {
 
