@@ -31,6 +31,8 @@ public class B_ConjuntoComportadoSet {
         nums.add(2);
         nums.add(32);
 
+        //nums.get(1); //Não é possivel acessar pelo índice
+
         for (int n : nums
         ) {
             System.out.println(n);
