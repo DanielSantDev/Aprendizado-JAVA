@@ -1,0 +1,15 @@
+package g_Poo.E_Heranca.Exemplo_1;
+
+public class Conceito_Heranca {
+
+    public static void main(String[] args) {
+
+        Classe_Filha_2 a = new Classe_Filha_2();
+
+        a.set_atributo_1("valor do atributo 1");
+        a.set_atributo_2("valor do atributo 2");
+        System.out.println(a.get_atributo_1());
+        System.out.println(a.get_Atributo_2());
+    }
+
+}
